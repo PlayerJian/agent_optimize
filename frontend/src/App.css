@@ -1,0 +1,122 @@
+.app-container {
+  min-height: 100vh;
+}
+
+.logo {
+  float: left;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.header-menu {
+  line-height: 64px;
+}
+
+.site-layout-content {
+  padding: 24px;
+  background: #fff;
+  min-height: calc(100vh - 134px);
+}
+
+/* 搜索页样式 */
+.search-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-header {
+  margin-bottom: 24px;
+}
+
+.search-form {
+  margin-bottom: 24px;
+}
+
+.search-options {
+  margin-bottom: 16px;
+}
+
+.search-results {
+  margin-top: 24px;
+}
+
+.result-item {
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+}
+
+.result-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+}
+
+.result-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.result-content {
+  margin-bottom: 8px;
+}
+
+.result-meta {
+  color: #888;
+  font-size: 12px;
+}
+
+.result-actions {
+  margin-top: 8px;
+}
+
+.cluster-container {
+  margin-top: 16px;
+  padding: 16px;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+.cluster-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* 分析页样式 */
+.analytics-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.chart-container {
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.chart-title {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+/* 设置页样式 */
+.settings-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.settings-section {
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.settings-title {
+  margin-bottom: 16px;
+  font-weight: bold;
+}

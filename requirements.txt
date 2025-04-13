@@ -1,0 +1,22 @@
+# 基础依赖
+pydantic>=1.10.8,<2.0.0
+fastapi>=0.95.2,<1.0.0
+uvicorn>=0.22.0,<1.0.0
+python-dotenv>=1.0.0,<2.0.0
+psycopg2-binary>=2.9.6,<3.0.0
+sqlalchemy>=2.0.15,<3.0.0
+redis>=4.5.5,<5.0.0
+
+# 向量数据库
+pymilvus>=2.2.11,<3.0.0
+
+# 机器学习和NLP
+scikit-learn>=1.2.2,<2.0.0
+numpy>=1.24.3,<2.0.0
+pandas>=2.0.2,<3.0.0
+torch>=2.0.0,<3.0.0
+sentence-transformers>=2.2.2,<3.0.0
+
+# 日志和监控
+loguru>=0.7.0,<1.0.0
+promptheus-client>=0.17.0,<1.0.0
